@@ -1,0 +1,43 @@
+button {
+    background-color: aqua;
+    color: tomato;
+    font-size: 15px;
+    border-radius: 20px;
+}
+button:hover {
+    color: blue;
+    background-color: springgreen;
+    border-radius: 0%;
+}
+button:link {
+    color: black;
+}
+button:visited {
+    color: violet;
+}
+button:active {
+    color: aqua;
+    background-color: brown;
+    font-size: 15px;
+}
+@keyframes smth{
+            0% {background-color: rgb(0, 0, 0);}
+            10% {background-color: rgb(67, 61, 61);}
+            20% {background-color: rgb(108, 83, 83);}
+            30% {background-color: rgb(142, 96, 96);}
+            40% {background-color: rgb(174, 107, 107);}
+            50% {background-color: rgb(209, 99, 99);}
+            60% {background-color: rgb(207, 69, 69);}
+            70% {background-color: rgb(249, 45, 45);}
+            80% {background-color: rgb(237, 40, 40);}
+            90% {background-color: rgb(240, 23, 23);}
+            100% {background-color: rgb(255, 0, 0);}
+        }
+        button{
+            animation-name: smth;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            background-color: aqua;
+            padding: 0;
+            margin: 0;
+        }
