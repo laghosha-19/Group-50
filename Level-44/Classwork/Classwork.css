@@ -1,7 +1,7 @@
 body{
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
 main{
@@ -16,7 +16,8 @@ div{
     border: 5px solid black;
 }
 main{
-    flex-direction: row;
-    
+    flex-direction:column;
+    align-self: flex-end;
+    flex-flow:column;
 }
 
