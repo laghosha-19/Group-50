@@ -1,0 +1,28 @@
+/* 
+    transition-delay
+    transform -- rotate(deg) translate(px) scale(1,2,3...)
+    შექმენით დივი როდესაც ამ დივზე მივიტანთ მაუსს ეს დივი დატრიალდეს 2880 გრადუსით ამასობაში გაიზარდოს ზომაში და შეიცვალოს ფერი მაგრამ მას ქონდეს დაყოვნება 2 წამი ხოლო როდესაც მაუსს მივიტანთ ფერის შეცვლა მოხდეს 2 წამში დატრიალების ხანგრძლივობა იყოს 4 წამი და ზომაში გაზრდის ხანგრძლივობა 2 წამი ანიიმაცაი დაიწწყოს ნელა აჩქარდეს და დასრულდეს ივენ ნელა
+*/
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: 0.5s;
+    transition-delay: background-color 2s, rotate 4s, scale 2s;
+}
+.square:hover{
+    transition: rotate(2880deg), scale(2);
+    background-color: blue;
+    transition-timing-function: ease-in-out;
+}

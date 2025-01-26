@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: hsl(217, 54%, 11%);
+
+}
+section{
+    font-size: 18px;
+    background-color: hsl(216, 50%, 16%);
+    color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    font-family: "Outfit", serif;
+    
+}
+.main{
+    width: 500px;
+}
+h2{
+    padding: 0px 0px 20px ;
+}
+hr{
+    opacity: 10%;
+}
+.image{
+    border-radius: 10px;
+    width:500px ;
+    height: 530px;
+}   
+.profile{
+    width: 45px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-bottom:-10px;
+    
+}
+.mainP{
+    opacity: 70%;
+}
+.main p i {
+    color: hsl(178, 100%, 50%);
+}
+.ETH {
+    color:hsl(178, 100%, 50%) ;
+}
+.days{
+    position:relative;
+    right: -280px;
+    opacity: 70%;
+}
+.creation{
+    text-indent: 66px;
+    position: relative;
+    top: -30px ;
+}
+.lastP{
+    opacity: 70%;
+}
