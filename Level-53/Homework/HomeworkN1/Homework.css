@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 2s;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+@keyframes animation{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: blue;
+    }
+}

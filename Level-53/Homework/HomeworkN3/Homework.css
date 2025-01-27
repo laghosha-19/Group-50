@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation-name: rot;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes rot{
+    from{
+        width: 200px;
+        height: 200px;
+        background-color: black;
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}

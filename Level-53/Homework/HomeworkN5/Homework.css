@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.square{
+    animation-name: scale;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    animation-name: scale1;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+    animation-duration: 2s;
+
+}
+@keyframes scale{
+    from{
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        border-radius: 15px;    
+    }
+    to{
+        transform: scale(500px);
+    }
+}
+@keyframes scale1{
+    from{
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        border-radius: 15px;  
+    }
+    to{
+        transform: scale(50%);
+    }
+}

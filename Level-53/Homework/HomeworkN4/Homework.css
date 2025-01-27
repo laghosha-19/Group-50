@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{
+    color: black;
+    font-size: 25px;
+    animation-name: txt;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes txt {
+    from{
+        color: black;
+        font-size: 25px;
+    }
+    to{
+        color: violet;
+        font-size: 40px;
+        transform: rotate(360deg);
+    }
+} 
