@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 500vh;
+    height: 700vh;
 }
 header{
     display: flex;
@@ -25,16 +25,41 @@ header nav ul {
     padding-left: 200px;
     font-weight: 400;
 }
+@media(max-width:1180px){
+    header nav ul{
+        position: absolute;
+        bottom: 100%;
+    }
+}
 header img {
     width: 116px;
     height: 44px;
     margin-top: 36px;
-
+}
+@media(max-width:1160px){
+    header i {
+        padding-top: 50px;
+    }
+}
+header i {
+    font-size: 25px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+header i:hover{
+    color: #003478;
+    transition: 1s;
+    transform: rotate(360deg);
 }
 header button{
     width: 108px;
     height: 48px;
     margin-top: 31px;
+}
+@media(max-width:375px){
+    header button{
+        width: 50px;
+    }
 }
 .signin{
     border: none;
@@ -68,6 +93,15 @@ section h1 {
     margin-left:150px;
     padding-top:166px;
 }
+@media(max-width:643px){
+    section h1 {
+        width: 60%;
+        margin-left: 10px;
+    }
+    section h1 span{
+        font-size: 30px;
+    }
+}
 .line1{
     width: 716px;
     height: 64px;
@@ -80,10 +114,31 @@ section h1 {
     margin-top:17.5px;
     background-color:#303231;
 }
+@media(max-width:735px){
+    .line1,.line2{
+        width: 80%;
+    }
+    .fordp{
+        right: 100%;
+    }
+}
 .hero img{
     position: absolute;
     left: 537px;
     top:212px;
+}
+@media(max-width:1669px){
+    .hero img {
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+}
+@media(max-width:1390px){
+    .hero img {
+        position: absolute;
+        left: 100%;
+    }
 }
 .fordp{
     position: absolute;
@@ -114,6 +169,11 @@ section h1 {
     margin-left: 80px;
     border-radius: 8px;
 }
+@media(max-width:300px){
+    .hero button{
+        width: 50%; 
+    }
+}
 .hero button:hover{
     transition: 0.8s;
     color: #fff;
@@ -123,8 +183,7 @@ section h1 {
     margin-top: 200px;
     align-items: center;
     /* width: 1940px; */
-    height: 827px;
-    border: 1px solid black;
+    height: 927px;
 }
 .black-line{
     height: 85px;
@@ -240,4 +299,260 @@ section h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.button-custum-order button{
+    color: #fff;
+    background-color: #003478;
+    width: 274px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 400;
+}
+.custum-order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button-custum-order p {
+    color: #0276B3;
+    padding-left: 57px;
+    padding-top: 20px;
+}
+.startingat p {
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 600;
+    color: #233443;
+}
+.startingat h2 {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62.93px;
+}
+.startingat{
+    display: flex;
+    align-items: center;
+    gap:300px;
+    padding-top: 100px;
+}
+.power-does{
+    width: 1900px;
+    height: 900px;
+    margin-left: 1px;
+}
+.matter{
+    width: 1900px;
+    height: 87px;
+    background-color: #303231;
+    color: #fff;
+    font-size:36px;
+    font-weight: 400;
+    line-height: 40.29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    width: 1900px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #303231;
+
+}
+.chekcbox{
+    display: flex;
+    flex-direction: column;
+}
+.chekcbox img {
+    width: 25px;
+    height: 25px;
+}
+.engine-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.chekcbox h2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40.29px;
+    color: #303231;
+}
+.chekcbox p {
+    width: 512px;
+    height: 88px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #303231;
+    
+}
+.chekcbox-img{
+    width: 494px;
+    height: 205px;
+    padding-top: 35px;
+}
+.horsepower,.torque,.Turbocharging,.twin,.twin2{
+    display: flex;
+}
+.horsepower p,.torque p,.Turbocharging p,.twin p,.twin2 p {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #333333;
+}
+.piatinoli{
+    width: 610px;
+    height: 531px;
+}
+.GT {
+    width: 1500px;
+    height: 779px;
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+}
+.GT-engine{
+    width: 843px;
+    height: 579px;
+}
+.chekcbox-txt{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 296px;
+}
+.div69{
+    display: flex;
+    padding-top: 10px;
+}
+.div69 p{
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.78px;
+    color: #333333;
+}
+.chekcbox-txt h2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40.29px;
+    color: #303230;
+}
+.small-p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #333333;
+}
+.mach1-img{
+    width: 622px;
+    height: 526px;
+}
+.mach1-checkbox img{
+    width:25px;
+    height: 25px;
+}
+.mach1-checkbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mach1 h2 h2{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40.29px;
+    color: #303232;
+}
+.mach1{
+    width: 1500px;
+    height: 870px;
+    margin-left: 180px;
+}
+.the-pinnacle{
+    width: 508px;
+    height: 66px;
+}
+.div70{
+    display: flex;
+    
+}
+.div70 p{
+    padding-left: 15px;
+    color:#333333;
+    font-weight: 400;
+    font-size: 18px;
+}
+.justf{
+    display: flex;
+    justify-content: space-around;
+}
+.mach1-txt{
+    padding-left: 130px;
+    padding-top: 200px;
+}
+.mach1-txt h2 {
+    font-weight: 400;
+    color: #303231;
+    font-size: 36px;
+    line-height: 40.29px;
+}
+.mach1-txt p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 21.78px;
+}
+.shelbyGT500{
+    width:1500px;
+    height: 650px;
+    margin-left: 180px;
+    display: flex;
+    padding-top: 100px;
+}
+.shelbyGT500-txt{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.div71{
+    display: flex;
+    gap: 15px;
+    
+}
+.shelbyGT500-txt h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #303231;
+    line-height: 40.29px;
+}
+.shelbyGT500-txt p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #333333;
+}
+.div71 p {
+    color: #333333;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+.alone-p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #333333;
 }
