@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items:center;
+}
+.reg{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+}
+.email{
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 20px;
+    border: 1px solid red;
+    box-shadow: 2px 2px;
+    margin-left: 5px;
+}
+.email:hover{
+    border: 1px solid green;
+    transition: 0.8s;
+}
+.pass{
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 20px;
+    border: 1px solid red;
+    box-shadow: 2px 2px;
+    margin-left: 5px;
+}
+.pass:hover{
+    border: 1px solid green;
+    transition: 0.8s;
+}
+.pass2{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.pass3{
+    padding: 15px;
+    
+}
