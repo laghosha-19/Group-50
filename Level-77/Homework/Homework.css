@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 500vh;
+    font-family: "Inter", sans-serif;
+}
+header{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding-top:35px;
+    margin-left: 35px;
+}
+header li {
+    display: flex;
+    gap: 45px;
+    font-size: 21px;
+    font-weight: 500;
+}
+header h2 span {
+    color: orange;
+}
+header h2 {
+    font-size: 29px;
+}
+.header-icons{
+    font-size: 25px;
+    display: flex;
+    gap: 25px;
+}
+@media(max-width:800px){
+    header li {
+        position: absolute;
+        left: 1000px;
+    }
+}
+@media(max-width:370px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.hero{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 560px;
+}
+.hero h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 173%;
+    padding-left: 20px;
+}
+.hero h1 span {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.lorem{
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.hero-date-and-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 620px;
+    height: 116px;
+    margin-left: 60px;
+    font-size: 19.5px;
+    margin-top: 50px;
+}
+.hero img {
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+.hero-left{
+    display: grid;
+    grid-template-columns:300px 300px ;
+    grid-template-rows: 400px ;
+    gap: 20px;
+
+}
+.hero-left img{
+    width:300px;
+    height: 410px;
+}
+.diff-hero-img{
+    margin-top: 150px;
+}
+@media(max-width:1800px){
+    .hero-right{
+        position: absolute;
+        backdrop-filter: blur(8px);
+        height: 850px;
+    }
+}
+@media(max-width:730px){
+    .hero-left{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-date-and-price{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-top: 200px;
+        width:120px;
+        height: 500px;
+    }
+    .hero-right{
+        backdrop-filter: 8px;
+        height: 1420px;
+    }
+    .hero h1 {
+        font-size: 21px;
+    }
+    .lorem{
+        font-size: 16px;
+    }
+}
+.planning{
+    margin-top: 300px;
+    display: flex;
+    gap: 200px;
+}
+.image{
+    width: 40px;
+    height: 40px;
+}
+.island-image{
+    width: 646px;
+    height: 899px;
+    box-shadow: 5px 5px 10px 10px;
+    margin-left: 100px;
+    background-color: #000;
+}
+.plan-trip{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 137%;
+}
+.way{
+    font-size: 27px;
+    font-weight: 500;
+    color: #FFA03F;
+}
+.price,.booking,.revising{
+    display: flex;
+    gap: 50px;
+}
+.right-planning{
+    margin-top: 100px;
+}
+.booking,.revising{
+    margin-top: 100px;
+}
+@media(max-width:1200px){
+    .left-planning{
+        backdrop-filter:blur(10px);
+        width: 646px;
+        height: 900px;
+        margin-left: 100px;
+        position: absolute;
+    }
+}
+@media(max-width:700px){
+    .left-planning{
+        width: 50%;
+        height: 50%;
+    }
+    .island-image{
+        position: absolute;
+        left: 4000px;
+    }
+}
+.mini-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    margin-right: 400px;
+    gap: 20px;
+}
+.mini-box img{
+    width: 40px;
+    height: 40px;
+}
+.mini-box p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 137%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+.whole-grid{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    gap: 70px;
+}
+
+.popular-dictation{
+    margin-left: 50px;
+}
+.bbrsk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indian-island img{
+    width: 350px;
+    height: 350px;
+    border-radius: 60px 60px 0px 0px;
+    overflow: hidden;
+}
+.popular-dictation h2 span{
+    color: #FFA03F;
+}
+.popular-dictation h2 {
+    font-size: 50px;
+}
+.Famous{
+    color: #FFA03F;
+    font-size: 21px;
+}
+.island-desc{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 100px;
+    background-color: #FFA03F;
+    border-radius: 0px 0px 60px 60px;
+    cursor: pointer;
+}
+.island-desc p {
+    font-size: 20px;
+    font-weight: 500;
+}
+.island-icons{
+    display: flex;
+    gap: 30px;
+    opacity: 60%;
+}
+.Lakshadweep-price span{
+    color: yellow;
+}
+.island-reviews{
+    display: flex;
+    width: 120px;
+    height: 30px;
+    background-color: #fff;
+    border: 0.3px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 365px;
+    left: 20px;
+    cursor: pointer;
+}
+.island-reviews i {
+    color: #FFA03F;
+}
+.island-reviews span {
+    opacity: 60%;
+}
+/* next grid element */
+.rhino-photo{
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+.rhino-reviews span {
+    opacity: 60%;
+}
+.rhino-reviews i {
+    color: #FFA03F;
+}
+.rhino img {
+    border-radius: 60px 60px 0px 0px;
+}
+.rhino-desc{
+    background-color:#FFA03F;
+    width: 350px;
+    height: 100px;
+    border-radius: 0px 0px 60px 60px;
+    margin-bottom:10px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+}
+.rhino-icons{
+    display: flex;
+    gap: 30px;
+    opacity: 60%;
+    font-size: 16px;
+}
+.rhino-reviews{
+    display: flex;
+    width: 120px;
+    height: 30px;
+    background-color: #fff;
+    border: 0.3px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 365px;
+    left: 20px;
+}
