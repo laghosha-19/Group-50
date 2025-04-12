@@ -95,37 +95,6 @@ header h2 {
 .diff-hero-img{
     margin-top: 150px;
 }
-@media(max-width:1800px){
-    .hero-right{
-        position: absolute;
-        backdrop-filter: blur(8px);
-        height: 850px;
-    }
-}
-@media(max-width:730px){
-    .hero-left{
-        display: flex;
-        flex-direction: column;
-    }
-    .hero-date-and-price{
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        margin-top: 200px;
-        width:120px;
-        height: 500px;
-    }
-    .hero-right{
-        backdrop-filter: 8px;
-        height: 1420px;
-    }
-    .hero h1 {
-        font-size: 21px;
-    }
-    .lorem{
-        font-size: 16px;
-    }
-}
 .planning{
     margin-top: 300px;
     display: flex;
@@ -162,25 +131,7 @@ header h2 {
 .booking,.revising{
     margin-top: 100px;
 }
-@media(max-width:1200px){
-    .left-planning{
-        backdrop-filter:blur(10px);
-        width: 646px;
-        height: 900px;
-        margin-left: 100px;
-        position: absolute;
-    }
-}
-@media(max-width:700px){
-    .left-planning{
-        width: 50%;
-        height: 50%;
-    }
-    .island-image{
-        position: absolute;
-        left: 4000px;
-    }
-}
+
 .mini-box{
     display: flex;
     justify-content: center;
@@ -400,8 +351,11 @@ header h2 {
     margin-top: 30px;
     cursor: pointer;
 }
+/* next section */
 .Dream-Dictation{
     margin-top: 100px;
+    margin-left: 80px;
+    
 }
 .Dream-Dictation h4 {
     color: #FFA03F;
@@ -428,4 +382,22 @@ header h2 {
     line-height: 156%;
     padding:10px;
     border: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.Dictation-desc{
+    display: flex;
+    gap: 70px;
+    margin-top: 30px;
+}
+.dictation-header{
+    font-size: 50px;
+    font-weight: 500;
+}
+.Dream-Dictation img{
+    width: 600px;
+    height: 800px;
+    position: relative;
+    left: 1000px;
+    bottom: 500px;
 }
