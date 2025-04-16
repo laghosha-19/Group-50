@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Bungee Tint;
+}
+.background{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000ab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+img{
+    width: 300px;
+}
+.imgdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imgdiv p {
+    font-size: 30px;
+    font-weight: 700;
+}
+.all{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 10px 25px;
+    background-color: #c30001;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+}
+button:hover{
+    transition: 0.5s;
+    scale: 1.1;
+    background-color: rgb(255, 24, 24);
+}
+.paragraphdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50px ;
+    gap: 130px;
+}
+.h1{
+    position: absolute;
+    top: 150px;
+    font-size: 40px;
+}
