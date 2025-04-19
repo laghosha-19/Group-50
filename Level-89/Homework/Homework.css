@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;    
+}
+
+.header{
+    display: flex;
+    padding: 0px 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.shopping{
+    /* display: none; */
+    width: 250px;
+    height: 1000px;
+    top: 0px;
+    right: 0px;
+    border:1px solid black;
+    position: absolute;
+
+
+}
+.head-left{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-left i {
+    padding-right: 80px;
+    font-size: 1.5rem;
+}
+.head-nav ul{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    list-style: none;
+    font-size: 1.3rem;
+}
+.logo{
+    width: 200px;
+}
+.close p{
+    font-size: 1.5rem;
+    padding-right: 10px;
+    font-style: oblique;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.close p:hover{
+    width: max-content;
+    background-color: rgba(255, 0, 0, 0.301);
+    transition: 0.5s;
+    color: black;
+
+}
+.product{
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 2px solid grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.shopping-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #fff;
+}
+.prod-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product img{
+    width: 100px;
+    object-fit: cover;
+}
+.product div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.product div button{
+    padding: 10px 10px;
+    border: none;   
+    cursor: pointer;
+    background-color: red;
+    border-radius: 10px;
+    color:#fff;
+}
+.h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
