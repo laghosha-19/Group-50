@@ -40,7 +40,7 @@ body{
     padding-right: 80px;
     font-size: 1.5rem;
 }
-.head-nav ul{
+.head-nav ul {
     display: flex;
     gap: 100px;
     justify-content: center;

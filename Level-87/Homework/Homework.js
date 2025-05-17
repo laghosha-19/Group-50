@@ -33,7 +33,6 @@ button.addEventListener("click", function(){
             score1.textContent = count1
             score2.textContent = count2
     
-    
         },1000)
 
         if (count1 == 10){
