@@ -1,5 +1,7 @@
     let time = document.querySelector(".time")
 
+    let buyButton = document.querySelector(".buyN")
+
     let same = document.querySelectorAll(".same")
 
     let clock = document.querySelector("#clock")
