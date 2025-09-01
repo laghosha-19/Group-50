@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: blue;
+    width: 300px ;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+    box-shadow: 2px 2px 2px 2px black;
+    font-size: 19px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
