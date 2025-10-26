@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.top{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFFFFF;
+}
+.top h1{
+    position: relative;
+    right:190px;
+    
+}
+.right-side{
+    display: flex;
+    gap: 20px;
+    font-weight: 700;
+    position: relative;
+    right: 420px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 320px;
+}

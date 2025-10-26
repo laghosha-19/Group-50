@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:hsl(233, 47%, 7%);
+    font-size: 15px;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(400px, 540px));
+    grid-template-rows: 445px;
+}
+.text{
+    background-color: hsl(244, 38%, 16%);
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.text h1 {
+    font-size: 40px;
+}
+.paragraph {
+    opacity: 70%;
+    line-height: 25px;
+}
+.text1{
+    font-family: "Inter", serif;
+
+}
+.image{
+    width: 100%;
+    
+}
+.insights{
+    color: hsl(277, 64%, 61%);
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    top: 150px;
+    padding-right: 300px;
+    font-family: "Lexend Deca", serif;
+}
+.companies{
+    opacity: 70%;
+    font-size: 13px;
+}
+.temp{
+    opacity: 70%;
+    font-size: 13px;
+}
+.que{
+    opacity: 70%;
+    font-size: 13px;
+}

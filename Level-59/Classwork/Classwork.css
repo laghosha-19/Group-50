@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 100px ;
+}
+nav ul {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 40px;
+    list-style-type: none;
+    font-weight: 700;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 25px;
+}
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0EFEB;
+}
+.hero h1 {
+    font-size: 60px;
+    max-width: 533px;
+}
+.hero p{
+    font-size: 24px;
+    line-height: 28.13px;
+    width: 481px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: start;
+}
+button{
+    background-color: black;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+}
+

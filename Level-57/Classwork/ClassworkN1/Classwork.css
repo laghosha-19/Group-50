@@ -1,0 +1,23 @@
+/*  1) შექმენით დივი რომელსის სიგანეც იქნება 100%, ამ დივში ჩაამატეთ 9 სხვადასხვა ფოტო, გამოიყენეთ grid და განალაგეთ ელემენტები ისე რომ იყოს 3 ქოლუმნი და 3 როუ ასევე ეს გრიდი იყოს მოთავსებული ცენტრში და გრიდის ელემენტებიც იყვნენ მოთავსებული თავისი ჩარჩოს ცენტრში, გაცენტრეთ body ოღონდ grid ის გამოყენებით */
+/* grid-template-columns:repeat(auto-fill, minmax(150px, 20%));       grid-template-columns: ;1fr 1fr 1fr  (ერთი მესამედი)*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.parent{
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    display: grid;
+    align-content: center;
+    justify-content:center;
+}

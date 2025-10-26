@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lobster&family=Oswald:wght@200..700&family=Rubik+Vinyl&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Oswald", serif;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start ;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    gap: 15px;
+    width: 23.5rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 0px;
+}
+.mainImage{
+    border-radius: 10px;
+
+}
+button{
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    padding: 7px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.pub {
+    font-weight: 500;
+    font-size: 14px;
+}
+h1{
+    font-weight: 800;
+    color: hsl(47, 88%, 63%)
+}
+.desc{
+    opacity: 60%;
+    font-weight: 500;
+    line-height: 24px;
+}
+.profile{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 5px 0px;
+}
+.profile img {
+    width: 30px;
+}
+.profile h2{
+    font-size: 16px;
+    font-weight: 800;
+}

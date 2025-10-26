@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+main{
+    width: 1000px;
+    height: 800px;
+    border: 10px solid black; 
+}
+div{
+    width:px solid black;
+    height: 800px;
+    background-color: red;
+    border: 5px solid black;
+}
+main{
+    flex-direction:column;
+    align-self: flex-end;
+    flex-flow:column;
+}
+
